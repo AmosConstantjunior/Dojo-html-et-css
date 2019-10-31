@@ -1,0 +1,207 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: #cccccc;
+    width: auto;
+    height: 200px;
+}
+
+.tete{
+    background-color: white;
+    
+    width: 270px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yeux{
+    display: flex;
+    margin-left: 30px;
+   
+    
+}
+
+.oeilg{
+    background-color: #7c7c7c;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 20px; 
+}
+.pupie{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-left: 7px;
+    animation: yeux 2s infinite;
+    
+}
+.oeild{
+    background-color: #7c7c7c;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.pupie2{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-left: 7px;
+    animation: yeux 2s infinite;
+    
+}
+
+
+
+
+.bouche{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 75px;
+}
+.bgauch{
+    width: 10px;
+    height: 10px;
+    background-color:#7c7c7c ;
+}
+.milieu{
+    width: 90px;
+    height: 10px;
+    background-color:  #cccccc;
+}
+
+
+
+.bdroit{
+    width: 10px;
+    height: 10px;
+    background-color:#7c7c7c ;
+   
+}
+
+
+.cou{
+    background-color: #b2b2b2;
+    height: 35px;
+}
+.inter{
+    background-color: white;
+    height:35px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article{
+    background-color:#999999 ;
+    width: auto;
+    height: 500px;
+    
+    
+}
+.corps{
+    display: flex;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.brasg{
+    background-color: white;
+    height: 500px;
+    width: 150px;
+    
+     margin-left:580px ; 
+   
+}
+.poitrine{
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    margin-left:35px;
+}
+
+
+.brasd{
+    background-color: white;
+    height: 500px;
+    width: 150px;
+    margin-left:35px;
+    animation: bras 2s ;
+    transform-origin: top left;
+    
+}
+
+footer{
+    background-color: #7f7f7f;
+    height: 350px;
+}
+.jambes{
+    display: flex;
+   
+   
+}
+.jgauche{
+    background-color: white;
+    width:155px ;
+    height: 250px;
+    margin-left: auto;
+    margin-right:15px
+}
+.jdroit{
+    background-color: white;
+    width:155px ;
+    height: 250px;
+    margin-right: auto;
+    margin-left: 5px;
+}
+.pieds{
+  display: flex;
+}
+
+.pgauch{
+    background-color: #bfbfbf;
+    height: 50px;
+    width: 155px;
+    margin-left: auto;
+    margin-right:15px
+}
+
+.pdroit{
+    background-color: #bfbfbf;
+    height: 50px;
+    width: 155px;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+@keyframes bras {
+    from{
+        margin-top: 0;
+       transform: rotate(0deg);
+       margin-left: 35px;
+       border-radius: 0;
+    }
+    to{
+        border-radius: 25%;
+        margin-top: 120px;
+        margin-left: 2px;
+        transform: rotate(-90deg);
+    }
+}
+@keyframes yeux{
+            from{
+                margin-left: 0px;
+            }
+            to{
+                margin-left: 25px;
+            }
+}
